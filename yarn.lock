@@ -955,6 +955,18 @@
     global "^4.3.2"
     prop-types "^15.6.2"
 
+"@storybook/addon-viewport@^4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-4.0.7.tgz#6de46bdae67ba3dcd57d07a83cfcad9b46924225"
+  dependencies:
+    "@emotion/styled" "^0.10.6"
+    "@storybook/addons" "4.0.7"
+    "@storybook/components" "4.0.7"
+    "@storybook/core-events" "4.0.7"
+    global "^4.3.2"
+    prop-types "^15.6.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/addons@4.0.7":
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.0.7.tgz#52a98ebfa862b34ed47368590564a9638b86d211"
@@ -1909,15 +1921,7 @@ babel-jest@23.6.0, babel-jest@^23.6.0:
     babel-plugin-istanbul "^4.1.6"
     babel-preset-jest "^23.2.0"
 
-babel-loader@7:
-  version "7.1.5"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.5.tgz#e3ee0cd7394aa557e013b02d3e492bfd07aa6d68"
-  dependencies:
-    find-cache-dir "^1.0.0"
-    loader-utils "^1.0.2"
-    mkdirp "^0.5.1"
-
-babel-loader@8.0.4:
+babel-loader@8.0.4, babel-loader@^8.0.0-beta.6:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.4.tgz#7bbf20cbe4560629e2e41534147692d3fecbdce6"
   dependencies:
